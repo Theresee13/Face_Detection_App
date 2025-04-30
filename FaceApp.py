@@ -7,7 +7,7 @@ import av
 # Load model once
 @st.cache_resource
 def load_model():
-    return YOLO("C:\\Users\\hp\\Yolo practical\\Yolo practical\\yolov8n-face.pt")  # Make sure this file is in the same directory
+    return YOLO("yolov8n-face.pt")  # Make sure this file is in the same directory
 
 model = load_model()
 
